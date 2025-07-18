@@ -58,11 +58,11 @@
 #     app.run()
 
 
-from flask import Flask, request, jsonify
+# from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
-users = []
+# users = []
 
 @app.route('/api/users', methods=['POST'])
 def create_user():
@@ -77,5 +77,6 @@ def get_users():
 
 if __name__ == '__main__':
     app.run()
+
 
 
